@@ -1,6 +1,7 @@
 <script lang="ts">
   import logo from "./assets/svelte.png";
   import Counter from "./lib/Counter.svelte";
+  import Tasks from "./lib/Tasks.svelte";
 </script>
 
 <main>
@@ -8,6 +9,7 @@
   <h1>Hello Typescript!</h1>
 
   <Counter />
+  <Tasks />
 
   <p>
     Visit <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
